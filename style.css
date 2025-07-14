@@ -9,16 +9,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background: linear-gradient(135deg, var(--igem-dark-blue) 0%, var(--igem-dark-red) 100%);
     min-height: 100vh;
 }
 
 .profile {
-    margin-top: 10vh;
+    margin-top: 70px;
 }
 
 .profile>p {
     margin: 0.2rem;
+    text-align: justify;
 }
 
 .profile-image {
@@ -32,6 +33,18 @@
     display: grid;
     grid-template-columns: 500px;
 }
+
+@media screen and (max-width: 540px) {
+    .links {
+    grid-template-columns: 80vw;
+    }
+    .profile>p {
+    width: 80vw;
+    }
+
+}
+
+
 
 .social-links {
     display: flex;
@@ -48,7 +61,6 @@ a.link {
     border-radius: 5px;
     margin: 0.5rem 0;
     padding: 1rem 0;
-    width: 100%;
     background-color: var(--igem-white);
     color: var(--igem-black);
     transition: background-color 0.3s ease, color 0.3s ease;
