@@ -1,0 +1,31 @@
+:root {
+    --igem-black: #171717; 
+    --igem-dark-red: #761113; 
+    --igem-light-red: #c12126;
+    --igem-light-blue: #669bbc;
+    --igem-dark-blue: #003049;
+    --igem-white: #ffffff;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter_24pt-Medium.ttf)
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter_24pt-Bold.ttf)
+        format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--igem-white);
+    font-family: Inter, sans-serif;
+}
