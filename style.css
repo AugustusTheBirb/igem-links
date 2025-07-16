@@ -39,7 +39,9 @@
 
 }
 
-
+.igem {
+    width: 5rem;
+}
 
 .social-links {
     display: flex;
